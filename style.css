@@ -3,8 +3,9 @@ body{
 }
 
 .top_header {
-    margin: 50px 20px 0px 20px;
+    /* margin: 50px 20px 0px 20px; */
     float: right;
+    margin-top: 40px;
 }
 
 /* Main CSS Here */
@@ -336,7 +337,7 @@ border-radius: 4px;
     .report-topic-heading,
     .item1,
     .items {
-        width: 700px;
+        width: 800px;
     }
     .navcontainer {
         width: 100vw;
