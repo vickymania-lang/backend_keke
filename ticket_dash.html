@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>back</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.cdnfonts.com/css/font" rel="stylesheet">
+                
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="navcontainer">
+            <div class="headers">
+                <input style="height: 30px; margin: 40px;" />
+                <input style="height: 30px;" />
+            </div>
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                            class="nav-img"
+                            alt="dashboard">
+                        <h3> Dashboard</h3>
+                    </div>
+ 
+                    <div class="option2 nav-option">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/9.png"
+                            class="nav-img"
+                            alt="articles">
+                        <h3> Tickets</h3>
+                    </div>
+ 
+                    <div class="nav-option option3">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/5.png"
+                            class="nav-img"
+                            alt="report">
+                        <h3> Agents</h3>
+                    </div>
+ 
+                    <div class="nav-option option4">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/6.png"
+                            class="nav-img"
+                            alt="institution">
+                        <h3> Account</h3>
+                    </div>
+ 
+                    <div class="nav-option option5">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
+                            class="nav-img"
+                            alt="blog">
+                        <h3> Referral</h3>
+                    </div>
+ 
+                   
+ 
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="report-container">
+                <div class="report-header">
+                    <h1 class="recent-Articles">Dashboard</h1>
+                </div>
+ 
+                <div class="report-body">
+                    <div style="border-style: none;" class="report-topic-heading">
+                        <h3 class="t-op">Article</h3>
+                        <h3 class="t-op">Ticket ID</h3>
+                        <h3 class="t-op">Subject</h3>
+                        <h3 class="t-op">Status</h3>
+                        <h3 class="t-op"></h3>
+                    </div>
+ 
+                    <div class="items">
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 73</h3>
+                            <h3 class="t-op-nextlvl">2.9k</h3>
+                            <h3 class="t-op-nextlvl">210</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">...</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 72</h3>
+                            <h3 class="t-op-nextlvl">1.5k</h3>
+                            <h3 class="t-op-nextlvl">360</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">...</h3>
+
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 71</h3>
+                            <h3 class="t-op-nextlvl">1.1k</h3>
+                            <h3 class="t-op-nextlvl">150</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">...</h3>
+
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 70</h3>
+                            <h3 class="t-op-nextlvl">1.2k</h3>
+                            <h3 class="t-op-nextlvl">420</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">...</h3>
+
+                        </div>
+ 
+                    </div>
+                </div>
+
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <script>
+        let menuicn = document.querySelector(".menuicn");
+        let nav = document.querySelector(".navcontainer");
+        
+        menuicn.addEventListener("click",()=>
+        {
+            nav.classList.toggle("navclose");
+        })
+        </script>
+        
+</body>
+</html>
